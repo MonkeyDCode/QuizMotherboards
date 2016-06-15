@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Juego</title>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.0/jquery.mobile.min.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.0/jquery.mobile.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div id="ctnTiempo"><span id="tiempo"></span> 
+		<img src="img/relax.gif" class="imgTiempo"  id="t1"alt="">
+		<img src="img/pensando.png" class="imgTiempo oculta" id="t2" alt="">
+		<img src="img/pensando2.png" class="imgTiempo oculta" id="t3" alt="">
+		<img src="img/estres.gif" class="imgTiempo oculta" id="t4" alt="">
+
+
+	</div> <br><br>
+	<div id="ctnPreguntas">
+
+		<div id="pregunta1" class="pregunta">
+			1 <br>
+			¿pregunta 1?<br> 	
+
+			 <button class="ui-btn ui-btn-inline btnPista">Pista</button>
+
+   			 <label for="radio1">1</label>
+  			 <input type="radio" name="radio" id="radio1" class="custom">
+
+  			 <label for="radio2">2</label>
+  			 <input type="radio" name="radio" id="radio2" value="correcta"class="custom">
+
+  			 <label for="radio3">3</label>
+  			 <input type="radio" name="radio" id="radio3" class="custom">
+
+  			 <label for="radio4">4</label>
+  			 <input type="radio" name="radio" id="radio4" class="custom">
+  			    			
+			 <div id="pista1" class="pista">
+  			  
+  			  	<br>
+  			  	Pista
+				<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+		<div id="pregunta2" class="pregunta rojo">
+			2 <br>
+			¿Pregunta2?<br>	
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>	
+
+   			 <label for="radio11">1</label>
+  			 <input type="radio" name="radio1" id="radio11" class="custom">
+
+  			 <label for="radio12">2</label>
+  			 <input type="radio" name="radio1" id="radio12" class="custom">
+
+  			 <label for="radio13">3</label>
+  			 <input type="radio" name="radio1" id="radio13" class="custom">
+
+  			 <label for="radio14">4</label>
+  			 <input type="radio" name="radio1" id="radio14" value="correcta" class="custom">
+
+			 <div id="pista1" class="pista">
+  			  
+  			  	<br>
+  			  	Pista
+				<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+		<div id="pregunta3" class="pregunta amarillo">
+			3 <br>
+			¿Pregunta 3?<br>
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>		
+
+   			 <label for="radio21">1</label>
+  			 <input type="radio" name="radio2" id="radio21" class="custom">
+
+  			 <label for="radio22">2</label>
+  			 <input type="radio" name="radio2" id="radio22" class="custom">
+
+  			 <label for="radio23">3</label>
+  			 <input type="radio" name="radio2" id="radio23" value="correcta" class="custom">
+
+  			 <label for="radio24">4 </label>
+  			 <input type="radio" name="radio2" id="radio24"  class="custom">
+
+  			 <div id="pista1" class="pista">
+  			  	
+  			  	<br>
+  			  	Pista
+  			  	<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+
+		<div id="pregunta4" class="pregunta azul">
+			4 <br>
+			Pregunta 4<br> 
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>		
+
+   			 <label for="radio31">1</label>
+  			 <input type="radio" name="radio3" id="radio31" class="custom">
+
+  			 <label for="radio32">2</label>
+  			 <input type="radio" name="radio3" id="radio32" value="correcta" class="custom">
+
+  			 <label for="radio33"> 3</label>
+  			 <input type="radio" name="radio3" id="radio33" class="custom">
+
+  			 <label for="radio34">4 </label>
+  			 <input type="radio" name="radio3" id="radio34"  class="custom">
+
+  			 <div id="pista1" class="pista">
+  			  	
+  			  	<br>
+  			  	pista
+				<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+
+		<div id="pregunta5" class="pregunta">
+			5 <br>
+			¿pregunta 5?<br>			
+			<button class="ui-btn ui-btn-inline btnPista">Pista</button>
+   			 <label for="radio41">1</label>
+  			 <input type="radio" name="radio4" id="radio41" class="custom">
+
+  			 <label for="radio42">2</label>
+  			 <input type="radio" name="radio4" id="radio42"  class="custom">
+
+  			 <label for="radio43">3</label>
+  			 <input type="radio" name="radio4" id="radio43" class="custom">
+
+  			 <label for="radio44">4</label>
+  			 <input type="radio" name="radio4" id="radio44" value="correcta"  class="custom">
+
+  			 <div id="pista1" class="pista">
+  			  	
+  			  	<br>
+  			  	<img src="img/sob.jpg" alt="">
+  			  	<button class="ui-btn ui-icon-arrow-l ui-btn-icon-left btnCerrarPista">Regresar</button>
+  			  </div>
+
+		</div>
+
+		<div id="pregunta6" class="pregunta morado">
+			6 <br>
+			Seleccione la imagen<br> <br>			
+			<div id="img1" class="imagen">
+			<img src="img/dolar.jpg" alt="">
+			</div>
+
+			<div id="img2" class="imagen" value="correcta">
+			<img src="img/pnb.jpg" alt="">
+			</div>
+
+   			
+
+		</div>
+
+		<div id="pregunta7" class="pregunta naranja">
+			7 <br>
+			imagen<br> <br>			
+			<div id="img1" class="imagen" value="correcta">
+			<img src="img/sob1.jpg" alt="">
+			</div>
+
+			<div id="img2" class="imagen">
+			<img src="img/sob2.jpg" alt="">
+			</div>
+
+   			
+
+		</div>
+
+		<div id="pregunta8" class="pregunta amarillo">
+			8 <br>
+			Imagen?<br> <br>			
+			<div id="img1" class="imagen" value="correcta">
+			<img src="img/pad.jpg" alt="">
+			</div>
+
+			<div id="img2" class="imagen">
+			<img src="img/nap.jpg" alt="">
+			</div>
+
+   			
+
+		</div>
+		
+		<button class="ui-btn" id="btnEnviar">Obtener Puntuacion</button>
+		<br><br>
+
+	</div><!--$(-end #ctnPreguntas-->
+
+	<script src="js/app.js"></script>
+</body>
+</html>
+
+
+
